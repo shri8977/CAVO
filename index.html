@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CAVO — Specialty Coffee House</title>
+  <meta name="description" content="CAVO is a specialty coffee house: slow-roasted beans, quiet corners, and a table waiting for you.">
+  <meta name="theme-color" content="#1A110C">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  
+
+  <!-- Google Fonts: Cormorant Garamond (headings) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== SHARED HEADER: keep identical on every page ===== -->
+  <header class="site-header">
+    <div class="site-header__inner container">
+      <a class="site-header__brand" href="index.html" aria-label="CAVO, home">CAVO</a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="visually-hidden">Menu</span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="menu.html">Menu</a></li>
+          <li><a class="site-nav__link" href="about.html">About</a></li>
+          <li><a class="site-nav__link" href="contact.html">Visit</a></li>
+          <li><a class="btn btn--small" href="contact.html">Visit CAVO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== PAGE CONTENT ===== -->
+  <main id="main">
+   <section class="hero">
+  <div class="hero__content">
+    <p class="eyebrow">Specialty coffee house</p>
+    <h1>Every cup has a <em>story.</em></h1>
+    <p class="lead">Foundation check: fonts, colours, navigation and footer are working. The real Home sections come next.</p>
+    <a class="btn" href="menu.html">Explore the menu</a>
+  </div>
+
+  <figure class="hero__media">
+    <img
+      src="assets/images/hero-cappuccino.jpg"
+      alt="A cappuccino with heart-shaped latte art in a ceramic cup on a dark wooden table"
+      width="1200" height="1500"
+      fetchpriority="high">
+  </figure>
+</section>
+
+  <!-- ===== SHARED FOOTER: keep identical on every page ===== -->
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+
+      <div class="site-footer__brand">
+        <p class="site-footer__logo">CAVO</p>
+        <p>Every cup has a story.</p>
+      </div>
+
+      <nav aria-label="Footer">
+        <h2 class="site-footer__heading">Explore</h2>
+        <ul class="site-footer__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Visit</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <h2 class="site-footer__heading">Hours</h2>
+        <p>Open daily<br>7:00 am – 10:00 pm</p>
+      </div>
+
+      <div>
+        <h2 class="site-footer__heading">Find us</h2>
+        <address>
+          27 Ember Lane, Old Mill Quarter<br>
+          Bengaluru 560 001
+        </address>
+        <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+        <p><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a></p>
+      </div>
+
+    </div>
+    <div class="container site-footer__bottom">
+      <p>&copy; <span id="year">2026</span> CAVO Specialty Coffee House. A fictional café for a portfolio project.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
